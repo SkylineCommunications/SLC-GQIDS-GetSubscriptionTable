@@ -36,7 +36,7 @@ id: aab6ed75-3936-4d47-b0ac-b148aa8fe861
 #   Max length: 100 characters.
 #   Cannot contain newlines.
 #   Cannot contain leading or trailing whitespace characters.
-title: GetSubscriptionTable
+title: SLC-GQIDS-GetSubscriptionTable
 # [Optional]
 # General information about the Catalog item.
 #   Max length: 100,000 characters
