@@ -33,12 +33,12 @@ id: aab6ed75-3936-4d47-b0ac-b148aa8fe861
 #   Max length: 100 characters.
 #   Cannot contain newlines.
 #   Cannot contain leading or trailing whitespace characters.
-title: SLC-GQIDS-GetSubscriptionTable
+title: Get Subscriptions
 # [Optional]
 # General information about the Catalog item.
 #   Max length: 100,000 characters
 # Currently not shown in the Catalog UI but will be supported in the near future.
-short_description: Ad hoc data source to retrieve the connection/subscriptions through a SLNET request
+short_description: GQI ad hoc data source that lists all active DataMiner client connections and subscriptions, with optional name filtering.
 # [Optional]
 # A valid URL that points to the source code.
 #   A valid URL
@@ -54,11 +54,18 @@ documentation_url:
 # People who are responsible for this Catalog item. Might be developers, but this is not required.
 #   The name is required; max 256 characters.
 #   The email and url are optional, and should be in valid email/URL formats.
-owners: []
+owners:
+  - name: Carlos Matheus
+    email: Carlos.Matheus@skyline.be
 # [Optional]
 # Tags that allow you to categorize your Catalog items.
 #   Max number of tags: 5
 #   Max length: 50 characters.
 #   Cannot contain newlines.
 #   Cannot contain leading or trailing whitespace characters.
-tags: []
+tags:
+  - GQI
+  - subscriptions
+  - connections
+  - ad hoc data source
+  - monitoring
